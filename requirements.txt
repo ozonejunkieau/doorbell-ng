@@ -5,4 +5,4 @@ loguru
 paho-mqtt
 python-logging-loki
 dynaconf
-pygobject
+lifxlan
