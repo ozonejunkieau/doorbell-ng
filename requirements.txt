@@ -1,0 +1,8 @@
+requests
+websocket-client
+python-telegram-bot
+loguru
+paho-mqtt
+python-logging-loki
+dynaconf
+pygobject

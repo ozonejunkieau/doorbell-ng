@@ -1,0 +1,21 @@
+verify_ssl = false
+
+[mqtt]
+host = "x.x.x.x"
+username = "xxxx"
+
+[unifiprotect]
+host = "10.x.x.x"
+username = "user"
+
+[unifidoorbell]
+device_id = "xxxxxxxxxxxxxx"
+host = "10.x.x.x"
+username = "ubnt"
+
+[loki]
+host = "http://x.x.x.x:3100/loki/api/v1/push"
+
+[lifx]
+mac = "d0:73:d5:xx:xx:xx"
+ip = "10.x.x.x"

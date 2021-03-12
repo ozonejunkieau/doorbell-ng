@@ -1,0 +1,18 @@
+
+# Ignore dynaconf files
+.secrets.toml
+.secrets.yaml
+settings.toml
+settings.yaml
+
+# Ignore notifier config files
+notifier_config.py
+
+# Ignore Virtual Environment
+_venv/
+
+# VSCode Files
+.vscode/
+
+# Python Cache Files
+__pycache__

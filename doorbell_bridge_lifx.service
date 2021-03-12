@@ -1,0 +1,13 @@
+[Unit]
+Description=Unifi Protect Doorbell - LIFX Bridge
+After=network.target
+
+[Service]
+User=(user if required)
+Type=simple
+Restart=always
+RestartSec=5
+ExecStart=/path/to/venv/python /path/to/lifx_listener.py >> /dev/null 2>&1
+
+[Install]
+WantedBy=multi-user.target
